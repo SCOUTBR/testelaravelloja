@@ -1,0 +1,21 @@
+# https://editorconfig.org
+
+[*]
+#Espaçamento de caracteres
+indent_style = space
+indent_size = 2
+
+#Default charset
+charset = utf-8
+
+#Padrão Unix de arquiivo
+insert_final_newline = true
+end_of_line = lf
+
+#Remover os espaços em branco antes do 1º caractere da linha
+trim_trailing_whitespace = false
+
+
+[*.md]
+insert_final_newline = false
+trim_trailing_whitespace = false
